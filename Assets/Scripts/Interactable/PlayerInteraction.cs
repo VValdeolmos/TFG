@@ -30,14 +30,14 @@ public class PlayerInteraction : MonoBehaviour
                 }
             }
             else if(clickToMove.CursorOnGround()){
-                Debug.Log("CursorOnGround");
+                //Debug.Log("CursorOnGround");
             }
             else{
-                Debug.Log("Nada");
+                //Debug.Log("Nada");
             }
         }
         else{
-            Debug.Log("Nada");
+            //Debug.Log("Nada");
         }
     }
 

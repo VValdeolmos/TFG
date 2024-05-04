@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa79d9010999f1f4eaa8bf7b13a60e86, type: 3}
+  m_Name: Pista1
+  m_EditorClassIdentifier: 
+  pistaName: "Diario del Capit\xE1n"
+  description: "En este diario se pueden observar la obsesi\xF3n que ten\xEDa con
+    acabar con la IA."

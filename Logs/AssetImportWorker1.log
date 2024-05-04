@@ -1,0 +1,475 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 16155 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/valde/OneDrive/Documentos/UnityProjects/TFG
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54014
+Successfully changed project path to: C:/Users/valde/OneDrive/Documentos/UnityProjects/TFG
+C:/Users/valde/OneDrive/Documentos/UnityProjects/TFG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24216] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3697707242 [EditorId] 3697707242 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-U4KA6PVU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24216] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3697707242 [EditorId] 3697707242 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-U4KA6PVU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 11.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/valde/OneDrive/Documentos/UnityProjects/TFG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014926 seconds.
+- Loaded All Assemblies, in  0.735 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.533 seconds
+Domain Reload Profiling: 1263ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (289ms)
+				TypeCache.ScanAssembly (260ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.191 seconds
+Refreshing native plugins compatible for Editor in 5.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 2036ms
+	BeginReloadAssembly (272ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (772ms)
+		LoadAssemblies (602ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (281ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 5.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3644.
+Memory consumption went from 120.3 MB to 120.3 MB.
+Total: 4.034700 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.365300 ms MarkObjects: 3.141400 ms  DeleteObjects: 0.201900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 774736.968827 seconds.
+  path: Assets/FBX/Door_Double.fbx
+  artifactKey: Guid(2e7fcecc9388c054db417631dc2026f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Door_Double.fbx using Guid(2e7fcecc9388c054db417631dc2026f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f136dc556f63c7440572fac0769c7d9') in 0.460804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FBX/Props_Base.fbx
+  artifactKey: Guid(105df40caae1f0e4289a11de60eddac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Props_Base.fbx using Guid(105df40caae1f0e4289a11de60eddac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3d82e42fc5dc229798619c4fc6c3a4') in 0.050593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FBX/Props_Shelf_Tall.fbx
+  artifactKey: Guid(e1ee68503f013ca458a7ef7127f0ddcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Props_Shelf_Tall.fbx using Guid(e1ee68503f013ca458a7ef7127f0ddcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64c59f95c9d2bce02aec267131473ed') in 0.041960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FBX/Props_Teleporter_2.fbx
+  artifactKey: Guid(b139f39269d5f5546b75daec6d4405eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Props_Teleporter_2.fbx using Guid(b139f39269d5f5546b75daec6d4405eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2613469e0b04c0495633429d0f093ea9') in 0.047192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FBX/Door_Single.fbx
+  artifactKey: Guid(2dfd4ee798dbb164da218d1fa2d6c4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Door_Single.fbx using Guid(2dfd4ee798dbb164da218d1fa2d6c4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1ec8101814c096f1f86239b87570de') in 0.069270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FBX/Column_1.fbx
+  artifactKey: Guid(d17f0f0704399af4888eadb26bfc346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Column_1.fbx using Guid(d17f0f0704399af4888eadb26bfc346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd631a9a11eb509c5e79d9a1c334fe4') in 0.037146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FBX/Column_2.fbx
+  artifactKey: Guid(b61d985500ba1c64d8cb38e0427cebbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Column_2.fbx using Guid(b61d985500ba1c64d8cb38e0427cebbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1877c3cb13c2554a35ba7ea8d01d0970') in 0.036655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FBX/Pipes.fbx
+  artifactKey: Guid(618ee0b5b4d75b54bae172c4781c84c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Pipes.fbx using Guid(618ee0b5b4d75b54bae172c4781c84c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53bf8f275196a4416ace841525726b2') in 0.032799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/FBX/RoofTile_Corner_Pipes.fbx
+  artifactKey: Guid(e7c2cf7f0913f66458cbc726516fa897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/RoofTile_Corner_Pipes.fbx using Guid(e7c2cf7f0913f66458cbc726516fa897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832e9e1ff03f51c1bfbb08314dcc25cc') in 0.061879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FBX/RoofTile_Empty.fbx
+  artifactKey: Guid(d2cb25add292df34bb6f37c1c8a29d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/RoofTile_Empty.fbx using Guid(d2cb25add292df34bb6f37c1c8a29d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188bbf4f96e317ee6c1d04f11dfd30db') in 0.041000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FBX/Column_Slim.fbx
+  artifactKey: Guid(599247a75267a724f9f62c44ebb6b2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Column_Slim.fbx using Guid(599247a75267a724f9f62c44ebb6b2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cdf981d56c8d4c675c2c0285037685') in 0.042753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FBX/FloorTile_Side.fbx
+  artifactKey: Guid(00e1b531737dddb48967560d32f86301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/FloorTile_Side.fbx using Guid(00e1b531737dddb48967560d32f86301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20297eaed33d4308ac4c22fef44ec468') in 0.063447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/FBX/Column_3.fbx
+  artifactKey: Guid(8314a35361bc58443be5b93cc3294947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Column_3.fbx using Guid(8314a35361bc58443be5b93cc3294947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5be33aa1f550721a4dff2ef16718a66') in 0.048735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 7.599023 seconds.
+  path: Assets/FBX/RoofTile_Pipes1.fbx
+  artifactKey: Guid(3d27e011d9d88e34cb057b4de50c8a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/RoofTile_Pipes1.fbx using Guid(3d27e011d9d88e34cb057b4de50c8a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a4190579f1bcff4cf131692d04bace') in 0.051894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FBX/RoofTile_Sides_Pipes.fbx
+  artifactKey: Guid(4cf050ea2017dde49b8df5a971ba1e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/RoofTile_Sides_Pipes.fbx using Guid(4cf050ea2017dde49b8df5a971ba1e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2132dd018ab3959c96823aeee88fcbd9') in 0.055609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FBX/RoofTile_Pipes2.fbx
+  artifactKey: Guid(77d75ae5c8f16664fb024dccb9f9d20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/RoofTile_Pipes2.fbx using Guid(77d75ae5c8f16664fb024dccb9f9d20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c294161aa772d3d065a2c4526a29e50') in 0.055865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 12.795075 seconds.
+  path: Assets/FBX/Walls/DoorDoubleLong_Wall_SideA.fbx
+  artifactKey: Guid(8ccb64eb27ef6d9498580b6d17bc6e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Walls/DoorDoubleLong_Wall_SideA.fbx using Guid(8ccb64eb27ef6d9498580b6d17bc6e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1095ca66d2d774d4d07bf85f383e46') in 0.084918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FBX/Walls/SmallWindows_Wall_SideB.fbx
+  artifactKey: Guid(0d34e2727b2a76141bdeaca228c0c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Walls/SmallWindows_Wall_SideB.fbx using Guid(0d34e2727b2a76141bdeaca228c0c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730dd05df385268037c4d9dd1c807093') in 0.080327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/FBX/Walls/ThreeWindows_Wall_SideA.fbx
+  artifactKey: Guid(fa01fb2171caeaf45b35e9414c6a8895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Walls/ThreeWindows_Wall_SideA.fbx using Guid(fa01fb2171caeaf45b35e9414c6a8895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22b81aa07addb2e398a2b4c8bc3bf92') in 0.082234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FBX/Walls/DoorSingle_Wall_SideB.fbx
+  artifactKey: Guid(9620df2f03ae9624a9edf7ed8ffdff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Walls/DoorSingle_Wall_SideB.fbx using Guid(9620df2f03ae9624a9edf7ed8ffdff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c2ec88e35f5f8cefb5ed0f88c2696e') in 0.045434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/FBX/Walls/Wall_4.fbx
+  artifactKey: Guid(7ddb300ff2fe30648a6524297fbabc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Walls/Wall_4.fbx using Guid(7ddb300ff2fe30648a6524297fbabc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf723f6ce680ceced58efae354b27750') in 0.058106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FBX/Walls/Wall_Empty.fbx
+  artifactKey: Guid(70c10f25d1861e94b990df07b2c15d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Walls/Wall_Empty.fbx using Guid(70c10f25d1861e94b990df07b2c15d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2f75b3433b8d068ff84783fd11bdef') in 0.062589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FBX/Walls/Window_Wall_SideA.fbx
+  artifactKey: Guid(8472f9532fd373d45b1f15a0ac58c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Walls/Window_Wall_SideA.fbx using Guid(8472f9532fd373d45b1f15a0ac58c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc945d2b04e68bbea3f497436d10e7ff') in 0.062671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 220.841929 seconds.
+  path: Assets/FBX/Details/Details_Arrow_2.fbx
+  artifactKey: Guid(1a2a9a8f2b15d954e9866f51ac6fad0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Arrow_2.fbx using Guid(1a2a9a8f2b15d954e9866f51ac6fad0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9594fa7872f9b19c360ea91cb186cf') in 0.038818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/FBX/Details/Details_Plate_Large.fbx
+  artifactKey: Guid(70b0f8eb1dbc46c44a431eb9ec2c5cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Plate_Large.fbx using Guid(70b0f8eb1dbc46c44a431eb9ec2c5cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02a181933f8bab866786f87c2a156db') in 0.067493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FBX/Details/Details_Output_Small.fbx
+  artifactKey: Guid(78dfb38ffa96ba3429fd0f436bfa46b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Output_Small.fbx using Guid(78dfb38ffa96ba3429fd0f436bfa46b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a7056384c6ff87a0bc2e6547da8170') in 0.029786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FBX/Details/Details_Basic_4.fbx
+  artifactKey: Guid(4fa1f936088bc2d40a4bbe41ea3f9c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Basic_4.fbx using Guid(4fa1f936088bc2d40a4bbe41ea3f9c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a9ca68f9d89460de8f728508ad14aa') in 0.042284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FBX/Details/Details_Basic_2.fbx
+  artifactKey: Guid(f884f5679a63c2d41a8578662381d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Basic_2.fbx using Guid(f884f5679a63c2d41a8578662381d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6278e44a8d59303710c2b17a40f8ee1c') in 0.038015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FBX/Details/Details_Vent_2.fbx
+  artifactKey: Guid(1e8992f10f70fe44fb4874cfdf24e578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Vent_2.fbx using Guid(1e8992f10f70fe44fb4874cfdf24e578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9588742d59af428ef06abc97df6393') in 0.047486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/FBX/Details/Details_Triangles.fbx
+  artifactKey: Guid(c8ea6fc057b8e414999fad2e88460db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Triangles.fbx using Guid(c8ea6fc057b8e414999fad2e88460db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9dee0fac1d03b577558a4efaf6f7fd') in 0.028897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FBX/Details/Details_Vent_3.fbx
+  artifactKey: Guid(dd0515f0d644b4f46aac091e736fcc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Vent_3.fbx using Guid(dd0515f0d644b4f46aac091e736fcc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899222568e5e5e081b4137bbf076ab66') in 0.040811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FBX/Details/Details_Basic_3.fbx
+  artifactKey: Guid(8063b883c6ac4994fb0f550af0fd14d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Basic_3.fbx using Guid(8063b883c6ac4994fb0f550af0fd14d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe60d2872e447ef5c2e6574bc7fd5bab') in 0.025267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FBX/Details/Details_Plate_Details.fbx
+  artifactKey: Guid(f824740113f80784da679a541d20881d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Plate_Details.fbx using Guid(f824740113f80784da679a541d20881d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29d91dc3896c01105de7595f754f858') in 0.041254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FBX/Details/Details_Cylinder.fbx
+  artifactKey: Guid(2ba70b211469801438046573cc3313fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Cylinder.fbx using Guid(2ba70b211469801438046573cc3313fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9314926a8f5cedbb0ba51f74440cd51f') in 0.032276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FBX/Details/Details_Plate_Small.fbx
+  artifactKey: Guid(87297cbcf4b865842bdbbbd0715b0cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Plate_Small.fbx using Guid(87297cbcf4b865842bdbbbd0715b0cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9d4ec5671d369e87897899874ad744') in 0.036380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FBX/Details/Details_Pipes_Long.fbx
+  artifactKey: Guid(9befcf11366a274438dc4de41fb83cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Details/Details_Pipes_Long.fbx using Guid(9befcf11366a274438dc4de41fb83cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af1878b9d300b0b6605b42217f44ae1') in 0.053959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

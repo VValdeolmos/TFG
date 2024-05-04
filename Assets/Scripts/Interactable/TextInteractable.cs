@@ -16,7 +16,7 @@ public class TextInteractable : Interactable
         if (isInteracting)
             return;
 
-        isInteracting = true;;
+        isInteracting = true;
         ConversationManager.Instance.StartConversation(myConv);
     }
 }
