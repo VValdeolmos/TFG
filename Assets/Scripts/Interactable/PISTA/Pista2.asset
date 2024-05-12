@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa79d9010999f1f4eaa8bf7b13a60e86, type: 3}
   m_Name: Pista2
   m_EditorClassIdentifier: 
-  pistaName: "Sangre del Capit\xE1n"
-  description: "Sangre del capit\xE1n que estaba esparcida por el suelo de su camarote."
+  pistaName: "Objetivo de la misi\xF3n"
+  description: 

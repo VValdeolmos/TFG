@@ -12,6 +12,7 @@ public class SlotGroup : MonoBehaviour
     public Slot selectedTab;
     public Pista actualPista;
     public Pista anteriorPista;
+    public List<GameObject> deduccUI;
 
     public InventarioDeducciones inventario;
 
@@ -46,8 +47,10 @@ public class SlotGroup : MonoBehaviour
                 actualPista = selectedTab.pista;
                 for(int i = 0; i < inventario.deducciones.Count; i++){
                     if(inventario.deducciones[i].pista1 && actualPista || inventario.deducciones[i].pista2 && actualPista){
-                        if(inventario.deducciones[i].pista1 && anteriorPista || inventario.deducciones[i].pista2 && anteriorPista)
+                        if(inventario.deducciones[i].pista1 && anteriorPista || inventario.deducciones[i].pista2 && anteriorPista){
                         inventario.deducciones[i].enabled = true;
+                        deduccUI[i].SetActive(true);
+                        }
                     }
                 }
             }
@@ -55,6 +58,7 @@ public class SlotGroup : MonoBehaviour
         
         
     }
+    
 
     public void ResetTabs(){
         foreach(Slot button in tabButtons){

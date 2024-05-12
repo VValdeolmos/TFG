@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.EventSystems;
 
 public class ClickToMove : MonoBehaviour
 {
@@ -9,9 +10,13 @@ public class ClickToMove : MonoBehaviour
     public NavMeshAgent agent;
     bool cursorOnGround;
 
+    public GameObject panelLayer;
+
     public GameObject pauseMenu;
 
     public bool estaEnDialogo = false;
+
+    public GameObject cameraKeypad;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +27,22 @@ public class ClickToMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Q))
+            {
+                pauseMenu.SetActive(false);
+                Time.timeScale = 1;
+                // hacemos visible el cursor
+                estaEnDialogo = false;
+            }
+        if(panelLayer.activeInHierarchy){
+            agent.ResetPath();
+        }
+        if(EventSystem.current.IsPointerOverGameObject()){
+            return;
+        }
+        if(panelLayer.activeInHierarchy || cameraKeypad.activeInHierarchy){
+            return;
+        }
         if(!estaEnDialogo){
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -47,13 +68,7 @@ public class ClickToMove : MonoBehaviour
                 // hacemos visible el cursor
                 estaEnDialogo = true;
             }
-        if (Input.GetKeyDown(KeyCode.Q))
-            {
-                pauseMenu.SetActive(false);
-                Time.timeScale = 1;
-                // hacemos visible el cursor
-                estaEnDialogo = false;
-            }
+        
     }
 
     public bool CursorOnGround(){

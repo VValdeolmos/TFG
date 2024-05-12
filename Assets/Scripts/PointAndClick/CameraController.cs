@@ -10,6 +10,10 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float xAxis, yAxis, zAxis;
     public Vector3 zoomAmount;
     public Vector3 newZoom;
+
+    public GameObject primaryCamera;
+    public GameObject cameraKeypad;
+    public GameObject keypad;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +25,8 @@ public class CameraController : MonoBehaviour
     {
         transform.position = new Vector3(player.transform.position.x + xAxis, player.transform.position.y + yAxis, player.transform.position.z + zAxis);
         HandleMouseInput();
+        
+        
     }
 
     void HandleMouseInput(){

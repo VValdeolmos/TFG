@@ -7,6 +7,8 @@ public class PlayerInteraction : MonoBehaviour
     ClickToMove clickToMove;
     IEnumerator interactRoutine;
     Interactable currentInteractable;
+    public GameObject panelLayer;
+    public GameObject cameraKeypad;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,9 @@ public class PlayerInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(panelLayer.activeInHierarchy || cameraKeypad.activeInHierarchy){
+            return;
+        }
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if(Physics.Raycast(ray, out hit)){

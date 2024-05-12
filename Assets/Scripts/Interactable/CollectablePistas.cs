@@ -19,7 +19,7 @@ public class CollectablePistas : Interactable
         //player.GetComponent<ClickToMove>().estaEnDialogo = true;
         Debug.Log("Colecciona Pista: ");
         InventarioPistas.SetPista(pista);
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 
     //public void senalarTerminado(){
