@@ -50,6 +50,16 @@ public class SlotGroup : MonoBehaviour
                         if(inventario.deducciones[i].pista1 && anteriorPista || inventario.deducciones[i].pista2 && anteriorPista){
                         inventario.deducciones[i].enabled = true;
                         deduccUI[i].SetActive(true);
+                            for(int j = 0; j < deduccUI.Count; j++){
+                                if(j == deduccUI.Count-1){
+                                    deduccUI[j].SetActive(true);
+                                    break;
+                                }
+                                if(deduccUI[j].activeInHierarchy){continue;}
+                                else{
+                                    break;
+                                }
+                            }
                         }
                     }
                 }

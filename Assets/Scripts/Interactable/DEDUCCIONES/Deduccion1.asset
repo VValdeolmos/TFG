@@ -15,5 +15,5 @@ MonoBehaviour:
   DeducName: Locura del capitan
   pista1: {fileID: 11400000, guid: 5aa3c73d87001ea4cae6877eaec59f74, type: 2}
   pista2: {fileID: 11400000, guid: 8ece45c297a715349bd1bd3b02f8135f, type: 2}
-  description: Locura
-  enabled: 1
+  description: 
+  enabled: 0
