@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class InventarioPistas : MonoBehaviour
 {
+    
+    
     public List<Pista> pistas;
 
     public static InventarioPistas instance;
@@ -15,14 +17,19 @@ public class InventarioPistas : MonoBehaviour
         }
         else{
             Destroy(gameObject);
-        }
+        } 
     }
 
     public static void SetPista(Pista pista){
         if(instance == null)
         return;
 
+        //while(panelLayer.activeInHierarchy){continue;}
         instance.pistas.Add(pista);
+        //pistaNoti.SetActive(true);
+        //StartCoroutine("Esperar");
+        //pistaNoti.SetActive(false);
+
     }
 
     public static bool HasPista(Pista pista){
@@ -31,5 +38,10 @@ public class InventarioPistas : MonoBehaviour
 
         return instance.pistas.Contains(pista);
     }
+    //IEnumerator Esperar(){
+        //yield return new WaitForSeconds(3);
+    //}
 }
+
+
 

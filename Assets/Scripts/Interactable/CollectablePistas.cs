@@ -8,7 +8,11 @@ public class CollectablePistas : Interactable
     public Pista pista;
     [SerializeField] private NPCConversation myConv;
 
-    public GameObject player;
+    //public GameObject player;
+
+    public GameObject pistaNoti;
+
+    //public GameObject panelLayer;
     
     public bool terminado = false;
     public override void Interact(){
@@ -19,7 +23,17 @@ public class CollectablePistas : Interactable
         //player.GetComponent<ClickToMove>().estaEnDialogo = true;
         Debug.Log("Colecciona Pista: ");
         InventarioPistas.SetPista(pista);
+        pistaNoti.SetActive(true);
+        StartCoroutine("RutinaNoti");
+        
+
+
         //Destroy(gameObject);
+    }
+
+    IEnumerator RutinaNoti(){
+        yield return new WaitForSeconds(5);
+        pistaNoti.SetActive(false);
     }
 
     //public void senalarTerminado(){

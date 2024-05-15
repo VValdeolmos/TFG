@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a2786adcc840a49a9cdb6da07cc8d5, type: 3}
   m_Name: Deduccion4
   m_EditorClassIdentifier: 
-  DeducName: 
-  pista1: {fileID: 0}
-  pista2: {fileID: 0}
+  DeducName: Motivo de la IA
+  pista1: {fileID: 11400000, guid: 8ece45c297a715349bd1bd3b02f8135f, type: 2}
+  pista2: {fileID: 11400000, guid: 30afb441ca60ac345b26884bb4a5b865, type: 2}
   description: 
   enabled: 0

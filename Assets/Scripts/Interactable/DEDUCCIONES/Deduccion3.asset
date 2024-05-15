@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a2786adcc840a49a9cdb6da07cc8d5, type: 3}
   m_Name: Deduccion3
   m_EditorClassIdentifier: 
-  DeducName: 
-  pista1: {fileID: 0}
-  pista2: {fileID: 0}
+  DeducName: "Pelea entre la tripulaci\xF3n"
+  pista1: {fileID: 11400000, guid: e791e9163baaf094d805d0ae80578827, type: 2}
+  pista2: {fileID: 11400000, guid: e675ca40a38b0ae4cb0c4b67f4855a73, type: 2}
   description: 
   enabled: 0

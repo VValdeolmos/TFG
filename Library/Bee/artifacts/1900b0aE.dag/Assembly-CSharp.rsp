@@ -388,6 +388,7 @@
 "Assets/Keypad/Scripts/SlidingDoor.cs"
 "Assets/QuickOutline/Scripts/Outline.cs"
 "Assets/Scripts/Conversations/ConversationStarter.cs"
+"Assets/Scripts/DecisionFinal.cs"
 "Assets/Scripts/Interactable/CollectableItem.cs"
 "Assets/Scripts/Interactable/CollectablePistas.cs"
 "Assets/Scripts/Interactable/ColliderConv.cs"

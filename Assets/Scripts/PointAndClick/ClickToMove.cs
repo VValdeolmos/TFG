@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.EventSystems;
+using DialogueEditor;
 
 public class ClickToMove : MonoBehaviour
 {
@@ -18,15 +19,36 @@ public class ClickToMove : MonoBehaviour
 
     public GameObject cameraKeypad;
 
+    [SerializeField] private NPCConversation myConvAyudaP;
+    [SerializeField] private NPCConversation myConvAyudaD;
+    [SerializeField] private NPCConversation tutorial;
+
+    public GameObject panelAyudaP;
+    public GameObject panelAyudaD;
+    
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        ConversationManager.Instance.StartConversation(tutorial);
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+        if (Input.GetKeyDown(KeyCode.Y) && panelAyudaP.activeInHierarchy){
+            pauseMenu.SetActive(false);
+            Time.timeScale = 1;
+            estaEnDialogo = false;
+            ConversationManager.Instance.StartConversation(myConvAyudaP);
+        }
+        if (Input.GetKeyDown(KeyCode.Y) && panelAyudaD.activeInHierarchy){
+            pauseMenu.SetActive(false);
+            Time.timeScale = 1;
+            estaEnDialogo = false;
+            ConversationManager.Instance.StartConversation(myConvAyudaD);
+        }
         if (Input.GetKeyDown(KeyCode.Q))
             {
                 pauseMenu.SetActive(false);

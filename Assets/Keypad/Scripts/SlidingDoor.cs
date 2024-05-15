@@ -9,6 +9,7 @@ namespace NavKeypad
         public bool IsOpoen => isOpen;
         private bool isOpen = false;
 
+
         public void ToggleDoor()
         {
             isOpen = !isOpen;
@@ -19,6 +20,7 @@ namespace NavKeypad
         {
             isOpen = true;
             anim.SetBool("character_nearby", isOpen);
+
         }
         public void CloseDoor()
         {

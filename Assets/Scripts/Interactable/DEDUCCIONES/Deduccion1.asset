@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a2786adcc840a49a9cdb6da07cc8d5, type: 3}
   m_Name: Deduccion1
   m_EditorClassIdentifier: 
-  DeducName: Locura del capitan
+  DeducName: IA asume el control
   pista1: {fileID: 11400000, guid: 5aa3c73d87001ea4cae6877eaec59f74, type: 2}
-  pista2: {fileID: 11400000, guid: 8ece45c297a715349bd1bd3b02f8135f, type: 2}
+  pista2: {fileID: 11400000, guid: f29d336a5f2433740a99e853cc448cd4, type: 2}
   description: 
   enabled: 0

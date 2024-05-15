@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class SlotGroup : MonoBehaviour
 {
@@ -15,6 +16,13 @@ public class SlotGroup : MonoBehaviour
     public List<GameObject> deduccUI;
 
     public InventarioDeducciones inventario;
+
+    public TMP_Text pistaTexto1;
+    public TMP_Text pistaTexto2;
+
+    public TMP_Text deduccionNoti;
+
+
 
     public void Subscribe(Slot button){
         if(tabButtons == null){
@@ -40,34 +48,55 @@ public class SlotGroup : MonoBehaviour
         button.tabImage.color = selectedColor;
         if(actualPista == null){
             actualPista = selectedTab.pista;
+            pistaTexto1.SetText(actualPista.pistaName); 
+            deduccionNoti.SetText("-");
+            pistaTexto2.SetText("-");
         }
         else{
             if(actualPista != selectedTab.pista){
                 anteriorPista = actualPista;
                 actualPista = selectedTab.pista;
+                pistaTexto2.SetText(actualPista.pistaName);
                 for(int i = 0; i < inventario.deducciones.Count; i++){
-                    if(inventario.deducciones[i].pista1 && actualPista || inventario.deducciones[i].pista2 && actualPista){
-                        if(inventario.deducciones[i].pista1 && anteriorPista || inventario.deducciones[i].pista2 && anteriorPista){
+                    Debug.Log(inventario.deducciones[i].pista1.pistaName);
+                    Debug.Log(inventario.deducciones[i].pista2.pistaName);
+                    if(inventario.deducciones[i].pista1 == actualPista || inventario.deducciones[i].pista2 == actualPista)
+                        if(inventario.deducciones[i].pista1 == anteriorPista || inventario.deducciones[i].pista2 == anteriorPista){
                         inventario.deducciones[i].enabled = true;
                         deduccUI[i].SetActive(true);
-                            for(int j = 0; j < deduccUI.Count; j++){
-                                if(j == deduccUI.Count-1){
-                                    deduccUI[j].SetActive(true);
-                                    break;
-                                }
-                                if(deduccUI[j].activeInHierarchy){continue;}
-                                else{
-                                    break;
-                                }
+                        Debug.Log("PistaActual: " + actualPista.pistaName);
+                        Debug.Log("PistaAnterior: " + anteriorPista.pistaName);
+                        Debug.Log("Activo deduccion: " + i);
+                        deduccionNoti.SetText("Deducción exitosa");
+                        actualPista = null;
+                        anteriorPista = null;
+
+                         for(int j = 0; j < inventario.deducciones.Count; j++){
+                            if(inventario.deducciones[j].enabled == true){
+                               if(j == inventario.deducciones.Count-1){
+                                Debug.Log("Activando deduccion final:" + j);
+                                deduccUI[4].SetActive(true);
+                                deduccionNoti.SetText("Deducción final alcanzada");
+                                break;
+                                } 
                             }
                         }
-                    }
+                        break;
+                        }
+                        if(i == 3){
+                            deduccionNoti.SetText("Deducción fallida");
+                            actualPista = null;
+                            anteriorPista = null;
+                        }
+                    
                 }
-            }
-        }
+                        
+                        }
+                    }
+                            
+                        }
+             
         
-        
-    }
     
 
     public void ResetTabs(){

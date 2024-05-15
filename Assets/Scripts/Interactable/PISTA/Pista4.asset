@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa79d9010999f1f4eaa8bf7b13a60e86, type: 3}
   m_Name: Pista4
   m_EditorClassIdentifier: 
-  pistaName: Indicios de pelea
+  pistaName: Indicios de violencia
   description: 

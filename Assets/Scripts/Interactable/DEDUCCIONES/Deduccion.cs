@@ -9,5 +9,5 @@ public class Deduccion : ScriptableObject
     public Pista pista1;
     public Pista pista2;
     public string description;
-    public bool enabled;
+    public bool enabled = false;
 }
